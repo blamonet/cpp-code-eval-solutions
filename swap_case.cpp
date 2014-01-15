@@ -19,7 +19,7 @@ int main(int argc, const char* argv[])
         } else if (islower(c)) {
            line[i] = toupper(c);
         }
-      i++;
+        i++;
       }
       std::cout << line << std::endl;
     }
